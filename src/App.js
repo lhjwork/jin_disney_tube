@@ -1,7 +1,18 @@
 import "./App.css";
-
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+import Login from "./components/Login";
+import { router } from "./router/router";
 function App() {
-  return <div className="App">진 디즈니 튜브 tets</div>;
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
 export default App;

@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Login from "./components/Login";
 import { router } from "./router/router";
+import Header from "./components/Header";
 function App() {
   return (
     <>
